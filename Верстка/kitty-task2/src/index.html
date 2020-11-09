@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Мурмаркет</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<header class="header">
+  <h1 class="store-name">Мурмаркет</h1>
+</header>
+<main class="kitty-gallery">
+  <input type="radio" class="switcher first" name="some_slide" id="first">
+  <input type="radio" class="switcher second" name="some_slide" id="second" checked>
+  <input type="radio" class="switcher third" name="some_slide" id="third">
+  <ul class="labels-for-switchers">
+    <li>
+      <label class="label-for-switcher" for="first"></label>
+    </li>
+    <li>
+      <label class="label-for-switcher" for="second"></label>
+    </li>
+    <li>
+      <label class="label-for-switcher" for="third"></label>
+    </li>
+  </ul>
+  <section class="slides_with_kitties">
+    <label for="first" class="kitty" >
+      <picture class="photo">
+        <img  src="img/2ae1f7350dda29980e6920c29856e67c.jpg"
+              alt="Милый котик сидит на ручках и грустит" title="Что за сладкая булочка!">
+      </picture>
+      <label class="activated_kitty" for="first_modal">
+        <picture class="photo">
+          <img  src="img/2ae1f7350dda29980e6920c29856e67c.jpg"
+                alt="Милый котик сидит на ручках и грустит" title="Что за сладкая булочка!">
+        </picture>
+        <span class="kitty_name">Булочка</span>
+      </label>
+    </label>
+    <label for="second" class="kitty">
+      <picture class="photo">
+        <img src="img/59c7464c25b1f6cf936160676529e31e.jpg"
+             alt="Кот в очках сидит у окна" title="Скрывает под очками грусть">
+      </picture>
+      <label class="activated_kitty" for="second_modal">
+        <picture class="photo">
+          <img src="img/59c7464c25b1f6cf936160676529e31e.jpg"
+               alt="Кот в очках сидит у окна" title="Скрывает под очками грусть">
+        </picture>
+        <span class="kitty_name">Стиляга</span>
+      </label>
+    </label>
+    <label for="third" class="kitty">
+      <picture class="photo">
+        <img src="img/1610594770697217.jpeg"
+             alt="Серьезный белый кот сидит за столом и смотрит на тебя"
+             title="Рассказывай, что у тебя стряслось?">
+      </picture>
+      <label class="activated_kitty" for="third_modal">
+        <picture class="photo">
+          <img src="img/1610594770697217.jpeg"
+               alt="Серьезный белый кот сидит за столом и смотрит на тебя"
+               title="Рассказывай, что у тебя стряслось?">
+        </picture>
+        <span class="kitty_name">Василий</span>
+      </label>
+    </label>
+  </section>
+</main>
+
+<input type="radio" class="modal-switcher first_modal" name="some_modal" id="first_modal">
+<input type="radio" class="modal-switcher second_modal" name="some_modal" id="second_modal">
+<input type="radio" class="modal-switcher third_modal" name="some_modal" id="third_modal">
+<input type="radio" class="close_button closing_modal" name="some_modal" id="closing_modal" checked>
+
+<section class="kitties_modal">
+  <article class="kittie item1">
+    <picture class="photo_modal">
+      <img  src="img/2ae1f7350dda29980e6920c29856e67c.jpg"
+            alt="Милый котик сидит на ручках и грустит" title="Что за сладкая булочка!">
+    </picture>
+    <section class="kittie_info">
+      <h3 class="name text">Булочка</h3>
+      <p class="text"><b>Возраст:</b> 1 год</p>
+      <p class="text">
+        Булочка любит делать чайно-кофейные посиделки слаще.
+        <br>Не думайте, что она толстая, она пушистая
+      </p>
+    </section>
+    <label for="closing_modal" class="close">&#65794;</label>
+  </article>
+  <article class="kittie item2">
+    <picture class="photo_modal">
+      <img src="img/59c7464c25b1f6cf936160676529e31e.jpg"
+           alt="Кот в очках сидит у окна" title="Скрывает под очками грусть">
+    </picture>
+    <section class="kittie_info">
+      <h3 class="name text">Стиляга</h3>
+      <p class="text"><b>Возраст:</b> 25 человеческих лет</p>
+      <p class="text">
+        Любит смотреть в окно и комментировать внешний вид проходящих мимо.
+        <br>Готов помочь выглядеть роскошно на любом мероприятии.
+      </p>
+    </section>
+    <label for="closing_modal" class="close">&#65794;</label>
+  </article>
+  <article class="kittie item3">
+    <picture class="photo_modal">
+      <img src="img/1610594770697217.jpeg"
+           alt="Серьезный белый кот сидит за столом и смотрит на тебя"
+           title="Рассказывай, что у тебя стряслось?">
+    </picture>
+    <section class="kittie_info">
+      <h3 class="name text">Василий</h3>
+      <p class="text"><b>Возраст:</b> 42 человеческих года</p>
+      <p class="text">
+        Несмотря на серьёзный вид, очень добрый и чуткий кот.
+        <br>Выслушает о наболевшем и залечит разбитое сердечко
+      </p>
+    </section>
+    <label for="closing_modal" class="close">&#65794;</label>
+  </article>
+</section>
+
+<footer class="footer">
+  <section class="mails footer-elem">
+    Напишите нам:
+    <br>
+    <a class="mail href" href="https://gifer.com/ru/gifs/коты">cats@babuli.ru</a>
+    <br>
+    <a class="mail href" href="https://gifer.com/ru/gifs/коты">vnuchek@babuli.ru</a>
+  </section>
+  <section class="copyright footer-elem">
+    &copy; 2020 ООО «<a class="href" href="https://gifer.com/ru/gifs/коты">Бабушкины котятки</a>»
+  </section>
+</footer>
+</body>
+</html>
