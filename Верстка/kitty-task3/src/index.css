@@ -1,0 +1,280 @@
+html {
+  font-family: FreeMono, monospace;
+}
+
+body {
+  display: grid;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+}
+
+.store-name {
+  font-size: 32px;
+  font-weight: normal;
+  margin: 10px auto;
+}
+
+.store-name::first-letter {
+  color: red;
+}
+
+header, footer {
+  border-bottom: 1px solid rgb(211, 211, 211);
+  border-top: 1px solid rgb(211, 211, 211);
+  background-color: rgb(255, 255, 255);
+}
+
+@media screen and (min-width: 375px) and (max-width: 729px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 100vw;
+    grid-template-rows: 1fr repeat(4, 600px) 40px;
+  }
+
+  .extra, .full-description {
+    display: none;
+    opacity: 0;
+  }
+
+  .info {
+    line-height: 8px;
+  }
+
+  .kitty {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    height: 540px;
+    width: 88vw;
+    border: 1px solid rgb(211, 211, 211);
+  }
+
+  .utya {
+    margin-top: 70px;
+  }
+
+  .photo {
+    height: 400px;
+    width: auto;
+  }
+
+  .footer {
+    height: 140px;
+    grid-area: 7/1/8/2;
+  }
+
+  .footer-elem {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .copyright {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .write-us {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 730px) and (max-width: 1199px) {
+  body {
+    margin: 0;
+    grid-row-gap: 3vw;
+    grid-column-gap: 4vh;
+    grid-template-columns: repeat(3, 26vw);
+    grid-template-rows: 8vh repeat(2, 80vh) 20vh;
+  }
+
+  .header {
+    grid-area: 1/1/4/2;
+  }
+
+  .footer {
+    grid-area: 4/1/5/4;
+    width: 100vw;
+  }
+
+  .mails {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .copyright {
+    margin-top: -15px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .write-us {
+    margin-bottom: 15px;
+    margin-left: 10px;
+  }
+
+  .href {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .kitty {
+
+    margin-left: 9vw;
+    border: 1px solid rgb(211, 211, 211);
+    width: 26vw;
+    height: 80vh;
+  }
+
+  .utya, .arkasha, .pushok {
+    margin-top: 16vh;
+  }
+
+  .photo {
+    width: 100%;
+    height: 40vh;
+  }
+
+  .info {
+    margin-top: 5vh;
+  }
+
+  .nyasha {
+    grid-area: 3/1/4/2;
+  }
+
+  .emelya {
+    grid-area: 3/2/4/3;
+  }
+
+  .extra,
+  .full-description {
+    display: none;
+    opacity: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    margin: 0;
+    grid-row-gap: 1vw;
+    grid-column-gap: 1vh;
+    grid-template-columns: 40vw 40vw 20vw;
+    grid-template-rows: 10vh repeat(3, 40vh) 4vh;
+  }
+
+  .mail {
+    margin-left: 1vw;
+  }
+
+  .emelya, .pushok, .utya {
+    margin-left: 1.2vw;
+  }
+
+  .pushok {
+    grid-area: 3/1/4/2;
+  }
+
+  .nyasha {
+    grid-area: 3/2/4/3;
+  }
+
+  .emelya {
+    grid-area: 4/1/5/2;
+  }
+
+  .header {
+    grid-area: 1/1/4/2;
+  }
+
+  .extra {
+    grid-area: 2/3/4/4;
+  }
+
+  .arkasha, .utya {
+    margin-top: 12vh;
+  }
+
+  .photo-text {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .kitty {
+    border: 1px solid rgb(211, 211, 211);
+    width: 38vw;
+    height: 40vh;
+  }
+
+  .kitty:hover {
+    box-shadow: 0 0 15px darkgray;
+  }
+
+  .full-description {
+    display: flex;
+    margin-top: 2vh;
+    flex-direction: column;
+    align-content: center;
+    border-top: 1px solid rgb(211, 211, 211);
+  }
+
+
+  .photo {
+    width: 40%;
+    height: 55%;
+  }
+
+  .text {
+    margin-top: -0.5vh;
+  }
+
+  .footer {
+    border-bottom: none;
+    height: 4vh;
+    grid-area: 5/1/6/4;
+  }
+
+  .copyright {
+    margin-top: -5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .mails {
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.mail::before {
+  margin-right: 3px;
+  content: '';
+  display: inline-block;
+  background-image: url(img/mail.png);
+  background-size: cover;
+  width: 15px;
+  height: 13px;
+}
+
+.write-us {
+  color: darkgray;
+}
+
+.href {
+  color: #4c4cd8;
+  text-decoration: none;
+}
+
