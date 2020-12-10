@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Котик на прокачку</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<main class="main">
+  <form class="form">
+    <h1 class="form__title">Прокачай кота!</h1>
+    <p class="form__info">Случился карантин, и Вы случайно откормили кота
+      до размера тефтельки?<br>Закажите индивидуально подобранную программу для прокачки вашего
+      котика!</p>
+    <section class="info-about-cat">
+      <label class="age info-about-cat__age">
+        Моему котику
+        <input type="number" min="1" class="info-about-cat__age-button" tabindex="1">
+        лет,
+      </label>
+      <label class="weight info-about-cat__weight"> а весит он
+        <input type="number" min="1" class="info-about-cat__weight-button" tabindex="2"> кг.
+      </label>
+    </section>
+    <section class="program">
+      <input id="radio1" name="radio" type="radio" class="program__button-cardio">
+      <label class=" button cardio program__cardio" for="radio1" tabindex="3">
+        <span></span>
+        Кардио
+      </label>
+      <input id="radio2" name="radio" type="radio" class="program__button-pilates">
+      <label class="button pilates program__pilates" for="radio2" tabindex="4">
+        <span></span>
+        Пилатес
+      </label>
+      <input id="radio3" name="radio" type="radio" class="program__button-crossfit">
+      <label class="button crossfit program__crossfit" for="radio3" tabindex="5">
+        <span></span>
+        Кроссфит
+      </label>
+    </section>
+    <label class="email form__email">
+      <input type="email" placeholder="Ваш email" class="form__email-button" tabindex="6">
+    </label>
+    <label class="spam form__spam">
+      <input type="checkbox" class="form__spam-button" tabindex="7">
+      Хочу спам :)
+    </label>
+    <label class="form__submit">
+      <input type="submit" value="Заказать!" class="form__submit-button" tabindex="8">
+    </label>
+  </form>
+  <section class="decoration">
+    <div class="block1"></div>
+    <input type="image" class="decoration__button-close" src="img/close.png"
+           alt="Кнопка для закрытия формы" tabindex="9">
+    <img class="decoration__img" src="img/fatcat.jpg"
+         alt="очень толстый недовольный кот хочет похудеть" tabindex="10">
+    <div class="block2"></div>
+  </section>
+</main>
+</body>
+</html>
+

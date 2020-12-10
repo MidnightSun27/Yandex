@@ -1,0 +1,324 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  z-index: 999;
+
+  width: 100%;
+  height: 50px;
+
+  border: 1px solid rgb(153, 153, 153);
+
+  background-color: #fff;
+
+  font-family: 'PT Sans Narrow', sans-serif;
+
+  font-size: 32px;
+
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 70px;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.header:first-letter,
+.characteristic:hover:first-letter,
+.cat_name:hover:first-letter,
+.hidden:hover:first-letter {
+  color: #f00;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+
+  object-fit: fill;
+}
+
+.cat_card {
+  margin: 20px;
+
+  padding: 10px;
+
+  border: 1px solid #ccc;
+}
+
+.cat_card:hover {
+  transform: scale(1.01);
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.age {
+  margin-top: -20px;
+}
+
+/*Заглушка варнинга в css валидатора в пользу семантики*/
+.plug {
+  display: none;
+}
+
+.wrapper {
+  width: 350px;
+  height: 250px;
+}
+
+.cat_name {
+  color: #000;
+  text-align: center;
+}
+
+.hidden {
+  grid-column: 1/3;
+
+  padding-top: 10px;
+
+  border-top: 1px solid #ccc;
+}
+
+.radio,
+.left,
+.hidden {
+  display: none;
+}
+
+.characteristic {
+  margin-left: -20px;
+
+  list-style: none;
+}
+
+.slider {
+  position: relative;
+
+  width: 200px;
+  height: 3px;
+
+  margin: 40px 0;
+
+  background: #ccc;
+}
+
+.bar {
+  position: absolute;
+  left: 20px;
+
+  width: 100px;
+  height: 100%;
+
+  background: #faebd7;
+}
+
+.lp,
+.rp {
+  position: absolute;
+
+  top: -8px;
+
+  width: 16px;
+  height: 16px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 100%;
+
+  background: #fff;
+
+  box-shadow: 1px 1px 1px rgba(122, 122, 122, 0.5);
+
+  cursor: pointer;
+}
+
+.rp {
+  left: 100%;
+}
+
+.label {
+  display: block;
+
+  width: 250px;
+
+  margin-bottom: 5px;
+
+  padding: 10px;
+
+  border: 1px solid #ccc;
+
+  cursor: pointer;
+}
+
+.footer {
+  flex: 0 0 auto;
+
+  width: 100%;
+
+  border-top: 1px solid #d3d3d3;
+
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.footer-element {
+  margin: 10px 20px 15px;
+}
+
+.ref,
+.lnk {
+  color: #4c4cd8;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.email::before {
+  display: inline-block;
+
+  width: 20px;
+
+  content: url('icons/mail.jpg');
+}
+
+.emails {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+@media screen and (min-width: 731px) {
+  .content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    width: 100%;
+    height: 40%;
+  }
+
+  .avatar {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: auto 300px;
+  }
+
+  .left {
+    display: block;
+
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sphinxDate,
+  .britishDate,
+  .pixelDate,
+  .magicDate,
+  .noDate,
+  .americanDate {
+    display: none;
+  }
+
+  .hidden {
+    display: block;
+
+    font-size: 20px;
+  }
+
+  .all:checked ~ .main .all.label,
+  .british:checked ~ .main .british.label,
+  .sphinx:checked ~ .main .sphinx.label,
+  .pixel:checked ~ .main .pixel.label,
+  .magic:checked ~ .main .magic.label,
+  .no:checked ~ .main .no.label,
+  .american:checked ~ .main .american.label {
+    background-color: #faebd7;
+  }
+
+  .all:checked ~ .main .britishDate,
+  .all:checked ~ .main .sphinxDate,
+  .all:checked ~ .main .pixelDate,
+  .all:checked ~ .main .magicDate,
+  .all:checked ~ .main .noDate,
+  .all:checked ~ .main .americanDate,
+  .british:checked ~ .main .britishDate,
+  .sphinx:checked ~ .main .sphinxDate,
+  .pixel:checked ~ .main .pixelDate,
+  .magic:checked ~ .main .magicDate,
+  .no:checked ~ .main .noDate,
+  .american:checked ~ .main .americanDate {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 300px);
+  }
+
+  .footer {
+    display: flex;
+    flex: 0 0 auto;
+  }
+
+  .emails {
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 400px;
+  }
+
+  .emails::before {
+    margin-top: -5px;
+
+    content: url('icons/mail.jpg');
+  }
+
+  .email::before {
+    display: none;
+  }
+
+  .write-us + .email::after {
+    display: inline-block;
+
+    padding: 0 15px;
+
+    color: #565656;
+    content: '\25CF';
+  }
+}

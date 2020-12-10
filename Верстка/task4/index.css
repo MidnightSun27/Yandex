@@ -1,0 +1,423 @@
+@font-face {
+    font-family: Simpsonfont;
+    src: url("font/Simpsonfont.otf");
+}
+
+html {
+    font-family: Simpsonfont, serif;
+}
+
+body {
+    width: 100vw;
+    margin: 0;
+    background: aliceblue;
+}
+
+.header {
+    height: 15vh;
+    position: fixed;
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 25px;
+    z-index: 1;
+    overflow: hidden;
+    background-color: darkcyan;
+    color: white;
+}
+
+.cards {
+    width: 100vw;
+
+}
+
+.header-name {
+    margin: 5vh auto;
+}
+
+.tinder {
+    padding-top: 60px;
+}
+
+.pig-checkbox {
+    display: none;
+}
+
+.name, .age {
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 4vh;
+}
+
+.button {
+    z-index: 800;
+    opacity: 0;
+}
+
+.pig1-1:checked ~ .controls > .two {
+    z-index: 900;
+    opacity: 1;
+}
+
+
+.piggy {
+    opacity: 0;
+    transition: opacity 1.5s ease-out;
+}
+
+.pig1-1:checked ~ .cards > .piggy.pig1 {
+    opacity: 1;
+}
+
+.info {
+    opacity: 0;
+    z-index: 100;
+    position: absolute;
+    top: 42%;
+    left: 10vw;
+    width: 78vw;
+    background: linear-gradient(transparent, rgb(131 226 226));
+}
+
+
+.pig1-1:checked ~ .cards > .piggy.pig1 > .info {
+    opacity: 1;
+}
+
+.picture .img {
+    box-shadow: 0 0 10px darkcyan;
+}
+
+.img {
+    z-index: 90;
+    position: absolute;
+    left: 10vw;
+    top: 20vh;
+    height: 78vw;
+    width: 78vw;
+}
+
+.symbol {
+    font-size: 10vw;
+    margin: 0 auto;
+}
+
+.star {
+    margin-bottom: 1vw;
+}
+
+.nope,
+.heart {
+    margin-bottom: 0.5vw;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    left: 13vw;
+    bottom: 7vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 3rem;
+    background-color: mediumturquoise;
+    box-shadow: 0 0 10px darkcyan;
+    transition: box-shadow 0.05s ease-out;
+}
+
+.pig-button {
+    visibility: hidden;
+}
+
+.super-like {
+    left: 42.5vw;
+}
+
+.like {
+    left: 72vw;
+}
+
+.button:hover {
+    background: linear-gradient(to top, paleturquoise, darkturquoise);
+}
+
+@media screen and (height: 740px) and (width: 360px) {
+    .tinder .cards .piggy .info {
+        top: 51.5%;
+    }
+
+    .img {
+        top: 27vh
+    }
+}
+
+@media screen and (height: 812px) and (width: 375px) {
+    .tinder .cards .piggy .info {
+        top: 51.5%;
+    }
+
+    .img {
+        top: 29vh
+    }
+
+    .button {
+        bottom: 14vh;
+    }
+}
+
+@media screen and (height: 732px) and (width: 412px) {
+    .tinder .cards .piggy .info {
+        top: 50%;
+    }
+
+
+    .button {
+        bottom: 13vh;
+    }
+}
+
+@media screen and (height: 720px) and (width: 540px) {
+    .tinder .cards .piggy .info {
+        top: 64.7%;
+    }
+
+
+    .button {
+        bottom: 6vh;
+    }
+}
+
+@media screen and (height: 653px) and (width: 280px) {
+    .tinder .cards .piggy .info {
+        width: 88vw;
+        top: 51.5%;
+        left: 6vw;
+    }
+
+    .img {
+        top: 28vh;
+        width: 88vw;
+        height: 88vw;
+        left: 6vw;
+    }
+
+    .button {
+        bottom: 14vh;
+    }
+}
+
+
+@media screen and (min-width: 909px) and (min-height: 690px) {
+    .img {
+        height: 30vw;
+        width: 30vw;
+        left: 33vw;
+    }
+
+    .tinder .cards .piggy .info {
+        width: 30vw;
+        left: 33vw;
+        top: 60%;
+    }
+
+    .button {
+        left: 33vw;
+        width: 6vw;
+        height: 6vw;
+        border-radius: 7rem;
+        bottom: 3vh;
+    }
+
+    .symbol {
+        font-size: 3.5vw;
+    }
+
+    .super-like {
+        left: 45.3vw;
+    }
+
+    .like {
+        left: 57.5vw;
+    }
+
+}
+
+.pig2-1:checked ~ .cards > .piggy.pig1 > .picture > .img,
+.pig3-1:checked ~ .cards > .pig2 > .picture > .img,
+.pig4-1:checked ~ .cards > .piggy.pig3 > .picture > .img,
+.pig5-1:checked ~ .cards > .piggy.pig4 > .picture > .img,
+.pig6-1:checked ~ .cards > .piggy.pig5 > .picture > .img,
+.pig7-1:checked ~ .cards > .piggy.pig6 > .picture > .img,
+.pig1-1:checked ~ .cards > .piggy.pig7 > .picture > .img {
+    box-shadow: 0 0 20px red;
+}
+
+.pig2-2:checked ~ .cards > .piggy.pig1 > .picture > .img,
+.pig3-2:checked ~ .cards > .pig2 > .picture > .img,
+.pig4-2:checked ~ .cards > .piggy.pig3 > .picture > .img,
+.pig5-2:checked ~ .cards > .piggy.pig4 > .picture > .img,
+.pig6-2:checked ~ .cards > .piggy.pig5 > .picture > .img,
+.pig7-2:checked ~ .cards > .piggy.pig6 > .picture > .img,
+.pig1-2:checked ~ .cards > .piggy.pig7 > .picture > .img {
+    box-shadow: 0 0 20px goldenrod;
+}
+
+
+.pig2-3:checked ~ .cards > .piggy.pig1 > .picture > .img,
+.pig3-3:checked ~ .cards > .pig2 > .picture > .img,
+.pig4-3:checked ~ .cards > .piggy.pig3 > .picture > .img,
+.pig5-3:checked ~ .cards > .piggy.pig4 > .picture > .img,
+.pig6-3:checked ~ .cards > .piggy.pig5 > .picture > .img,
+.pig7-3:checked ~ .cards > .piggy.pig6 > .picture > .img,
+.pig1-3:checked ~ .cards > .piggy.pig7 > .picture > .img {
+    box-shadow: 0 0 20px deeppink;
+}
+
+.pig2-2:checked ~ .cards > .piggy.pig1,
+.pig2-1:checked ~ .cards > .piggy.pig1,
+.pig2-2:checked ~ .cards > .piggy.pig1 > .info,
+.pig2-1:checked ~ .cards > .piggy.pig1 > .info,
+.pig2-3:checked ~ .cards > .piggy.pig1 > .info,
+.pig2-3:checked ~ .cards > .piggy.pig1,
+.pig3-3:checked ~ .cards > .piggy.pig2 > .info,
+.pig3-3:checked ~ .cards > .piggy.pig2,
+.pig3-1:checked ~ .cards > .piggy.pig2 > .info,
+.pig3-2:checked ~ .cards > .piggy.pig2 > .info,
+.pig3-1:checked ~ .cards > .piggy.pig2,
+.pig3-2:checked ~ .cards > .pig2,
+.pig4-2:checked ~ .cards > .pig3,
+.pig4-1:checked ~ .cards > .piggy.pig3,
+.pig4-2:checked ~ .cards > .piggy.pig3 > .info,
+.pig4-1:checked ~ .cards > .piggy.pig3 > .info,
+.pig4-3:checked ~ .cards > .piggy.pig3 > .info,
+.pig4-3:checked ~ .cards > .piggy.pig3,
+.pig5-2:checked ~ .cards > .pig4,
+.pig5-1:checked ~ .cards > .piggy.pig4,
+.pig5-2:checked ~ .cards > .piggy.pig4 > .info,
+.pig5-1:checked ~ .cards > .piggy.pig4 > .info,
+.pig5-3:checked ~ .cards > .piggy.pig4 > .info,
+.pig5-3:checked ~ .cards > .piggy.pig4,
+.pig6-2:checked ~ .cards > .pig5,
+.pig6-1:checked ~ .cards > .piggy.pig5,
+.pig6-2:checked ~ .cards > .piggy.pig5 > .info,
+.pig6-1:checked ~ .cards > .piggy.pig5 > .info,
+.pig6-3:checked ~ .cards > .piggy.pig5 > .info,
+.pig6-3:checked ~ .cards > .piggy.pig5,
+.pig7-2:checked ~ .cards > .pig6,
+.pig7-1:checked ~ .cards > .piggy.pig6,
+.pig7-2:checked ~ .cards > .piggy.pig6 > .info,
+.pig7-1:checked ~ .cards > .piggy.pig6 > .info,
+.pig7-3:checked ~ .cards > .piggy.pig6 > .info,
+.pig7-3:checked ~ .cards > .piggy.pig6,
+.pig1-2:checked ~ .cards > .pig7,
+.pig1-1:checked ~ .cards > .piggy.pig7,
+.pig1-2:checked ~ .cards > .piggy.pig7 > .info,
+.pig1-1:checked ~ .cards > .piggy.pig7 > .info,
+.pig1-3:checked ~ .cards > .piggy.pig7 > .info,
+.pig1-3:checked ~ .cards > .piggy.pig7 {
+    opacity: 0;
+}
+
+.pig2-2:checked ~ .cards > .piggy.pig2,
+.pig2-1:checked ~ .cards > .piggy.pig2,
+.pig2-2:checked ~ .cards > .piggy.pig2 > .info,
+.pig2-1:checked ~ .cards > .piggy.pig2 > .info,
+.pig2-3:checked ~ .cards > .piggy.pig2 > .info,
+.pig2-3:checked ~ .cards > .piggy.pig2,
+.pig3-2:checked ~ .cards > .pig3,
+.pig3-1:checked ~ .cards > .piggy.pig3,
+.pig3-2:checked ~ .cards > .piggy.pig3 > .info,
+.pig3-1:checked ~ .cards > .piggy.pig3 > .info,
+.pig3-3:checked ~ .cards > .piggy.pig3 > .info,
+.pig3-3:checked ~ .cards > .piggy.pig3,
+.pig4-2:checked ~ .cards > .pig4,
+.pig4-1:checked ~ .cards > .piggy.pig4,
+.pig4-2:checked ~ .cards > .piggy.pig4 > .info,
+.pig4-1:checked ~ .cards > .piggy.pig4 > .info,
+.pig4-3:checked ~ .cards > .piggy.pig4 > .info,
+.pig4-3:checked ~ .cards > .piggy.pig4,
+.pig5-2:checked ~ .cards > .pig5,
+.pig5-1:checked ~ .cards > .piggy.pig5,
+.pig5-2:checked ~ .cards > .piggy.pig5 > .info,
+.pig5-1:checked ~ .cards > .piggy.pig5 > .info,
+.pig5-3:checked ~ .cards > .piggy.pig5 > .info,
+.pig5-3:checked ~ .cards > .piggy.pig5,
+.pig6-2:checked ~ .cards > .pig6,
+.pig6-1:checked ~ .cards > .piggy.pig6,
+.pig6-2:checked ~ .cards > .piggy.pig6 > .info,
+.pig6-1:checked ~ .cards > .piggy.pig6 > .info,
+.pig6-3:checked ~ .cards > .piggy.pig6 > .info,
+.pig6-3:checked ~ .cards > .piggy.pig6,
+.pig7-2:checked ~ .cards > .pig7,
+.pig7-1:checked ~ .cards > .piggy.pig7,
+.pig7-2:checked ~ .cards > .piggy.pig7 > .info,
+.pig7-1:checked ~ .cards > .piggy.pig7 > .info,
+.pig7-3:checked ~ .cards > .piggy.pig7 > .info,
+.pig7-3:checked ~ .cards > .piggy.pig7,
+.pig1-2:checked ~ .cards > .pig1,
+.pig1-1:checked ~ .cards > .piggy.pig1,
+.pig1-2:checked ~ .cards > .piggy.pig1 > .info,
+.pig1-1:checked ~ .cards > .piggy.pig1 > .info,
+.pig1-3:checked ~ .cards > .piggy.pig1 > .info,
+.pig1-3:checked ~ .cards > .piggy.pig1 {
+    opacity: 1;
+}
+
+.pig2-1:checked ~ .controls > .two,
+.pig2-2:checked ~ .controls > .two,
+.pig2-3:checked ~ .controls > .two,
+.pig3-1:checked ~ .controls > .three,
+.pig3-2:checked ~ .controls > .three,
+.pig3-3:checked ~ .controls > .three,
+.pig4-1:checked ~ .controls > .four,
+.pig4-2:checked ~ .controls > .four,
+.pig4-3:checked ~ .controls > .four,
+.pig5-1:checked ~ .controls > .five,
+.pig5-2:checked ~ .controls > .five,
+.pig5-3:checked ~ .controls > .five,
+.pig6-1:checked ~ .controls > .six,
+.pig6-2:checked ~ .controls > .six,
+.pig6-3:checked ~ .controls > .six,
+.pig7-1:checked ~ .controls > .seven,
+.pig7-2:checked ~ .controls > .seven,
+.pig7-3:checked ~ .controls > .seven,
+.pig1-1:checked ~ .controls > .one,
+.pig1-2:checked ~ .controls > .one,
+.pig1-3:checked ~ .controls > .one {
+    opacity: 0;
+    z-index: 800;
+}
+
+.pig2-1:checked ~ .controls > .three,
+.pig2-2:checked ~ .controls > .three,
+.pig2-3:checked ~ .controls > .three,
+.pig3-1:checked ~ .controls > .four,
+.pig3-2:checked ~ .controls > .four,
+.pig3-3:checked ~ .controls > .four,
+.pig4-1:checked ~ .controls > .six,
+.pig4-2:checked ~ .controls > .six,
+.pig4-3:checked ~ .controls > .six,
+.pig5-1:checked ~ .controls > .seven,
+.pig5-2:checked ~ .controls > .seven,
+.pig5-3:checked ~ .controls > .seven,
+.pig6-1:checked ~ .controls > .eight,
+.pig6-2:checked ~ .controls > .eight,
+.pig6-3:checked ~ .controls > .eight,
+.pig7-1:checked ~ .controls > .one,
+.pig7-2:checked ~ .controls > .one,
+.pig7-3:checked ~ .controls > .one,
+.pig1-1:checked ~ .controls > .two,
+.pig1-2:checked ~ .controls > .two,
+.pig1-3:checked ~ .controls > .two {
+    opacity: 1;
+    z-index: 900;
+}
+
+
+

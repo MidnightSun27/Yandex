@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>02-about-cats</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap"
+          rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">Муркаркет</header>
+
+    <input type="radio" id="all" class="all radio" name="breed" checked>
+    <input type="radio" id="sphinx" class="sphinx radio" name="breed">
+    <input type="radio" id="british" class="british radio" name="breed">
+    <input type="radio" id="american" class="american radio" name="breed">
+    <input type="radio" id="pixel" class="pixel radio" name="breed">
+    <input type="radio" id="magic" class="magic radio" name="breed">
+    <input type="radio" id="no" class="no radio" name="breed">
+
+    <main class="main">
+      <section class="left">
+        <h3>Возраст</h3>
+        <article class="slider">
+          <h2 class="plug">заглушка</h2>
+          <div class="bar">
+            <div class="lp"></div>
+            <div class="rp"></div>
+          </div>
+        </article>
+        <div class="age">От 2 до 4 лет</div>
+
+        <h3>Порода</h3>
+        <label for="all" class="all label">Все</label>
+        <label for="sphinx" class="sphinx label">Сфинкс</label>
+        <label for="pixel" class="pixel label">Пиксельная</label>
+        <label for="british" class="british label">Британская короткошерстная</label>
+        <label for="american" class="american label">Американская короткошерстная</label>
+        <label for="magic" class="magic label">Магическая</label>
+        <label for="no" class="no label">Без породы</label>
+      </section>
+
+      <section class="content">
+        <h2 class="plug">заглушка</h2>
+        <article class="pixelDate cat_card">
+          <div class="wrapper">
+            <img class="avatar" src="cats_images/Fenya.png" alt="Феня">
+          </div>
+          <div class="info">
+            <h2 class="cat_name">Феня</h2>
+            <ul>
+              <li class="characteristic">Возраст: Олд</li>
+              <li class="characteristic">Порода: Пиксельная</li>
+              <li class="characteristic">Болезни: нет</li>
+              <li class="characteristic">Статут: ищет хозяина</li>
+            </ul>
+          </div>
+          <p class="hidden">
+            Феня котик редкой пиксельной породы.
+            Характер спокойный и тихий, но его вид вызывает ностальгию по временам 8-ми битных игр.
+            Феня любит бегать по дому, аркадные автоматы, настолки и старое аниме.
+            Это один из тех котиков, который не будет вам мешать играть в любимые игры,
+            а при желании его можно будет попросить доиграть за вас,
+            если вам вдруг нужно встать в AFK
+          </p>
+        </article>
+
+        <article class="sphinxDate cat_card">
+          <div class="wrapper">
+            <img class="avatar" src="cats_images/Pharaon.jpg" alt="Фараон">
+          </div>
+          <div class="info">
+            <h2 class="cat_name">Фараон</h2>
+            <ul>
+              <li class="characteristic">Возраст: 3 года</li>
+              <li class="characteristic">Порода: Сфинкс</li>
+              <li class="characteristic">Болезни: Лысый</li>
+              <li class="characteristic">Статут: ищет хозяина</li>
+            </ul>
+          </div>
+          <p class="hidden">
+            Фараон под стать своему имени любит властвовать.
+            Но он далеко не тиран, а очень хороший правитель.
+            Любит чистоту и когда все вещи на своих местах.
+            Если у вас есть еще животные,
+            то Фараон с ними подружится и будет следить за их поведением
+          </p>
+        </article>
+
+        <article class="britishDate cat_card">
+          <div class="wrapper">
+            <img class="avatar" src="cats_images/Paula.jpg" alt="Стесняш">
+          </div>
+          <div class="info">
+            <h2 class="cat_name">Стесняш</h2>
+            <ul>
+              <li class="characteristic">Возраст: 3 месяца</li>
+              <li class="characteristic">Порода: Британская короткошерстная</li>
+              <li class="characteristic">Болезни: нет</li>
+              <li class="characteristic">Статут: ищет хозяина</li>
+            </ul>
+          </div>
+          <p class="hidden">
+            Стесняш еще маленький и глупенький, поэтому стесняется фотографироваться.
+            На фото его сестра Паула
+          </p>
+        </article>
+
+        <article class="britishDate cat_card">
+          <div class="wrapper">
+            <img class="avatar" src="cats_images/Paula.jpg" alt="Паула">
+          </div>
+          <div class="info">
+            <h2 class="cat_name">Паула</h2>
+            <ul>
+              <li class="characteristic">Возраст: 3 месяца</li>
+              <li class="characteristic">Порода: Британская короткошерстная</li>
+              <li class="characteristic">Болезни: нет</li>
+              <li class="characteristic">Статут: ищет хозяина</li>
+            </ul>
+          </div>
+          <p class="hidden">
+            Паула полная противоположность своего брата.
+            Она очень общительная и любить фоткаться.
+            Обижается, когда кто-то приходит в гости и не играет с ней.
+            Паулу нельзя разделять со своим братом Стесняшем,
+            поэтому они идут в паре и создают балланс, которого нам так не хватает
+          </p>
+        </article>
+
+        <article class="magicDate cat_card">
+          <div class="wrapper">
+            <img class="avatar" src="cats_images/Yuumi.jpg" alt="Юми">
+          </div>
+          <div class="info">
+            <h2 class="cat_name">Юми</h2>
+            <ul>
+              <li class="characteristic">Возраст: У магических кошек такое не спрашивают</li>
+              <li class="characteristic">Порода: Магическая</li>
+              <li class="characteristic">Болезни: нет</li>
+              <li class="characteristic">Статут: ищет хозяику</li>
+            </ul>
+          </div>
+          <p class="hidden">
+            Юми это волшебная кошка.
+            Ее любимое занятие летать на своей книге и играть в прятки с хозяйкой.
+            Юми очень разговорчива. Серьезно, она умеет разговаривать.
+            Юми отличный выбор для тех, кто хочет немного поразвлекаться
+          </p>
+        </article>
+
+        <article class="noDate cat_card">
+          <div class="wrapper">
+            <img class="avatar" src="cats_images/SCP.jpg" alt="SCP-4 лапки. Наблюдатель">
+          </div>
+          <div class="info">
+            <h2 class="cat_name">SCP-4 лапки. Наблюдатель</h2>
+            <ul>
+              <li class="characteristic">[TOP SECRET]</li>
+              <li class="characteristic">[TOP SECRET]</li>
+              <li class="characteristic">[TOP SECRET]</li>
+              <li class="characteristic">[TOP SECRET]</li>
+            </ul>
+          </div>
+          <p class="hidden">
+            Класс объекта расценивается как безопасный.
+            SCP-4 Лапки - общее обозначение данное целой группе объектов.
+            В настоящее время SCP-4 лапки. Наблюдатель находится в ██████████.
+            Сотрудниками фонда была выявлена особенность данного объекта: ██████████.
+            Объект любит ██████████████████.
+            Ведет себя странно при ███████. SCP-4 лапки.
+            Наблюдатель подойдет любителям мистики и тайн.
+          </p>
+        </article>
+
+        <article class="noDate cat_card">
+          <div class="wrapper">
+            <img class="avatar" src="cats_images/Oleg.jpg" alt="Олег">
+          </div>
+          <div class="info">
+            <h2 class="cat_name">Олег</h2>
+            <ul>
+              <li class="characteristic">Возраст: 2 года</li>
+              <li class="characteristic">Порода: Нет</li>
+              <li class="characteristic">Болезни: Нет</li>
+              <li class="characteristic">Статус: ещет хозяина</li>
+            </ul>
+          </div>
+          <p class="hidden">Просто Олег.</p>
+        </article>
+
+        <article class="noDate cat_card">
+          <div class="wrapper">
+            <img class="avatar" src="cats_images/Salvator.png" alt="Сальватор">
+          </div>
+          <div class="info">
+            <h2 class="cat_name">Сальватор</h2>
+            <ul>
+              <li class="characteristic">Возраст: 1.2 года</li>
+              <li class="characteristic">Порода: Крутая</li>
+              <li class="characteristic">Болезни: Нет</li>
+              <li class="characteristic">Статус: ещет хозяина</li>
+            </ul>
+          </div>
+          <p class="hidden">
+            Сальватор крутой кот, который не расстается со своими не менее крутыми очками.
+            Станет главным украшением и гостем вашей вечеринки.
+            У Сальватора боевой характер.
+            Он не даст ни себя ни вас в обиду.
+            Так же он дюбит двигать головой под такт музыки.
+            Можете звать его Крутой
+          </p>
+        </article>
+
+        <article class="americanDate cat_card">
+          <div class="wrapper">
+            <img class="avatar" src="cats_images/Mysua.jpg" alt="Муся">
+          </div>
+          <div class="info">
+            <h2 class="cat_name">Муся</h2>
+            <ul>
+              <li class="characteristic">Возраст: 1 год</li>
+              <li class="characteristic">Порода: Американская короткошерстная</li>
+              <li class="characteristic">Болезни: Немного хромает на одну лапку</li>
+              <li class="characteristic">Статус: ищет хозяина</li>
+            </ul>
+          </div>
+          <p class="hidden">
+            Муся очень нежная и добра кошка.
+            Но ей нужно время, чтобы к вам привыкнуть и начать доверять,
+            после этого вы получите самую ласковую и милую кошку.
+            Если вы человек со стрессом, то муся поможет его снять.
+          </p>
+        </article>
+
+        <article class="noDate cat_card">
+          <div class="wrapper">
+            <img class="avatar" src="cats_images/Chef.png" alt="Шеф">
+          </div>
+          <div class="info">
+            <h2 class="cat_name">Шеф</h2>
+            <ul>
+              <li class="characteristic">Возраст: 1 год</li>
+              <li class="characteristic">Порода: Нет</li>
+              <li class="characteristic">Болезни: Безграничная любовь к еде</li>
+              <li class="characteristic">Статус: ищет хозяина</li>
+            </ul>
+          </div>
+          <p class="hidden">
+            Именем шеф все сказано. Характер привередливый(особенно к еде) и разговорчивый.
+            Его прелесть в том, что он умеет готовить себе сам.
+            Если вы его не покормите, то он не пропадет, но в таком случае готовьтесь к войне.
+            Котик отлично подойдет людям, которые хотят поесть в приятной компании
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-element emails">
+        <span class="write-us">Напишите нам:</span>
+        <address class="ref email" ><a class="lnk" href="#">cats@babuli.ru</a></address>
+        <address class="ref email" ><a class="lnk" href="#">vnuchek@babuli.ru</a></address>
+      </div>
+      <div class="footer-element">
+        &copy; 2020 ООО «<a class="ref" href="#">Бабушкины котятки</a>»
+      </div>
+    </footer>
+  </body>
+</html>
