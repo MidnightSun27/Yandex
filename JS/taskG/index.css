@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(90deg, rgba(174, 238, 187, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.submit-button {
+    color: #303030;
+    margin-left: 47vw;
+}
+
+.suggests {
+    min-height: 30vh;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.inputs__to,
+.inputs__from,
+.submit-button {
+    background-color: #ffd633;
+    border: #31b394 2px dashed;
+    cursor: pointer;
+    font-size: 1.3vw;
+}
+
+.inputs__from,
+.inputs__to,
+.autocomplete-list_from,
+.autocomplete-list_to {
+    outline: none;
+    color: #5d6069;
+    width: 20vw;
+}
+
+.autocomplete-wrap_from,
+.autocomplete-wrap_to {
+    position: relative;
+    width: 20vw;
+    margin: 10vw;
+}
+
+.autocomplete-list_from,
+.autocomplete-list_to {
+    position: absolute;
+    top: 100%;
+    width: 20.5vw;
+    overflow-y: auto;
+    background-color: #ffd633;
+}
+
+.autocomplete-item {
+    padding: 5px 10px;
+    font-size: 1.1vw;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.autocomplete-item:hover, .autocomplete-item.focused {
+    background: #ffe185;
+}
+
+.arrow {
+    font-size: 4vw;
+}
