@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e263bbfc-d326-4221-817f-832e53045953" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/bigspam.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/clouds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/geolink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/keyboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/mic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/traffic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ya-music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/yandex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/yandex.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty-task3/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty-task3/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty-task3/src/img/9766b776c52b4106c9dcb5497532ba90.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty-task3/src/img/D9DgGjaWwAAXxfT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty-task3/src/img/EEyyh-zVUAAApDJ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty-task3/src/img/ab6cea0a527047c5d2abe2bbb55f089c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty-task3/src/img/e9d6b397a7ea0fbd6cb7f26ab08daa6c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty-task3/src/img/mail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty-task3/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty-task3/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty_task/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty_task/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty_task/src/imgs/1610594770697217.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty_task/src/imgs/193149939013_384139042344206_4968726276081713152_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty_task/src/imgs/27412a28dfb39614fdaf626db657ba1b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty_task/src/imgs/2ae1f7350dda29980e6920c29856e67c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty_task/src/imgs/59c7464c25b1f6cf936160676529e31e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty_task/src/imgs/9766b776c52b4106c9dcb5497532ba90.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty_task/src/imgs/9c6b34a0361136d723ddd9a2264a3e92.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty_task/src/imgs/D9DgGjaWwAAXxfT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty_task/src/imgs/EEyyh-zVUAAApDJ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty_task/src/imgs/ab6cea0a527047c5d2abe2bbb55f089c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty_task/src/imgs/e9d6b397a7ea0fbd6cb7f26ab08daa6c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty_task/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitty_task/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src 2/cats_images/Chef.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src 2/cats_images/Fenya.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src 2/cats_images/FunnyDog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src 2/cats_images/Mysua.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src 2/cats_images/Oleg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src 2/cats_images/Paula.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src 2/cats_images/Pharaon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src 2/cats_images/SCP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src 2/cats_images/Salvator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src 2/cats_images/Yuumi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src 2/icons/mail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src 2/icons/menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src 2/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src 2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/font/Simpsonfont.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/img/071640268j.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/img/234573.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/img/5afadf6ec15ae3296f23a652.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/img/5afd4d2ba380b65e6f3bb9d6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/img/5d60c0df074b3e97a028c6db.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/img/e0ae78f61a0fde9ac7a17415ae58b6e3--mexicans-so-cute.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/img/guinea-pig-2363289_960_720.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task5/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task5/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task5/src/img/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task5/src/img/fatcat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task5/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task5/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task6/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task6/.idea/task6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task6/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task6/font/Simpsonfont.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task6/img/2994150_201502070226290761.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task6/img/lisa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task6/img/sticker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task6/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task6/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1lhJmtNCm7S50eqbnTJNoCZ0er4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/task7/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e263bbfc-d326-4221-817f-832e53045953" name="Default Changelist" comment="" />
+      <created>1608043551391</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608043551391</updated>
+      <workItem from="1608043552476" duration="601000" />
+      <workItem from="1608118609080" duration="39441000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="326" y="83" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1608152258919">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="326" y="83" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1440.797@0.23.1440.797" timestamp="1608152258919" />
+  </component>
+</project>
